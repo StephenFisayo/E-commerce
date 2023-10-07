@@ -1,0 +1,129 @@
+
+    var itemArray = 
+    {
+        pict1: './images/image-product-1-thumbnail.jpg', pict2: './images/image-product-2-thumbnail.jpg', pict3: './images/image-product-3-thumbnail.jpg' , pict4: './images/image-product-4-thumbnail.jpg',
+        sneaker: 'Fall Limited Edition Sneakers',
+        discount: "$125.00 x " + amountShoe.textContent + " ", 
+        total:  "$" + totalAmount + ".00",
+        bin: './images/icon-delete.svg',
+        button: 'Checkout'
+    }
+
+    function showCheckout(){
+        thumbnail.src = itemArray.pict3;
+        trash.src = itemArray.bin;
+        buy.textContent = itemArray.button;
+        checkedType.textContent = itemArray.sneaker;
+        checkedAmount.textContent = itemArray.discount;
+        strongAmount.textContent = itemArray.total;
+    }
+
+
+window.addEventListener('click', function(){
+            clickedCheck.style.display = "none";
+        })
+
+
+
+function showProduct1(){
+    disp.src = thumbArray[0];
+}
+pro1.addEventListener('click', showProduct1);
+
+function showProduct2(){
+    disp.src = thumbArray[1];
+}
+pro2.addEventListener('click', showProduct2);
+
+function showProduct3(){
+    disp.src = thumbArray[2];
+}
+pro3.addEventListener('click', showProduct3);
+
+function showProduct4(){
+    disp.src = thumbArray[3];
+}
+pro4.addEventListener('click', showProduct4);
+
+
+
+ if(disp.src == imgArray[1]){
+            thumbnail.src = itemArray.pict2;
+        }else if(disp.src == imgArray[2]){
+            thumbnail.src = itemArray.pict3;
+        }else if(disp.src == imgArray[3]){
+            thumbnail.src = itemArray.pict4;
+        }else{
+            thumbnail.src = itemArray.pict1;
+        }
+
+
+
+let nom = amountShoe.textContent;
+    let totalAmount = 125.00 * nom;
+
+    var itemArray = 
+    {
+        pict1: './images/image-product-1-thumbnail.jpg', pict2: './images/image-product-2-thumbnail.jpg', pict3: './images/image-product-3-thumbnail.jpg' , pict4: './images/image-product-4-thumbnail.jpg',
+        sneaker: 'Fall Limited Edition Sneakers',
+        discount: "$125.00 x " + amountShoe.textContent + " ", 
+        total:  "$" + totalAmount + ".00",
+        bin: './images/icon-delete.svg',
+        button: 'Checkout'
+    }
+
+    function showCheckout(){
+        thumbnail.src = itemArray.pict1;
+        trash.src = itemArray.bin;
+        buy.textContent = itemArray.button;
+        checkedType.textContent = itemArray.sneaker;
+        checkedAmount.textContent = itemArray.discount;
+        strongAmount.textContent = itemArray.total;
+    }
+
+    if (nom > 0){
+        showCheckout();
+        clickedCheck.classList.toggle("check-visible");
+        emptyCart.style.display = "block";
+        clearCart.style.display = "none";
+    }else if (nom == 0){
+        emptyCart.style.display = "none";
+        clearCart.style.display = "block";
+    }
+
+
+
+
+
+$(document).click(function(e){
+    if ($(e.target).attr("id") != "checkout") $("#checkout").remove();
+})
+
+
+document.addEventListener('click', function(){
+    if(EventTarget != clickedCheck){
+        clickedCheck.style.visibility = "hidden";
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
