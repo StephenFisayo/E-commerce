@@ -334,7 +334,7 @@ h3{
 .low-profile{
     font-size: 1rem;
     margin-bottom: 30px;
-    line-height: 4vh;
+    line-height: 25px;
     font-weight: 400;
     overflow: hidden;
 }
@@ -1083,7 +1083,7 @@ h3{
         margin-bottom: 20px;
         font-size: 1.8rem;
         font-weight: 700;
-        line-height: 4.8vh;
+        line-height: 28px;
     }
     
     .low-profile{
