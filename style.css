@@ -111,7 +111,7 @@ img.avatar{
 }
 
 .emptycatalogue h4{
-    margin: 10vh auto;
+    margin: 70px auto;
 }
 
 .check-visible{
@@ -924,7 +924,7 @@ h3{
     }
     
     .emptycatalogue h4{
-        margin: 10vh auto;
+        margin: 70px auto;
     }
     
     .check-visible{
@@ -1072,7 +1072,7 @@ h3{
     }
     
     .word-section{
-        margin: 3.5vh;
+        margin: 20px;
         text-align: left;
         font-size: 1.4rem;
         /* position: relative;
