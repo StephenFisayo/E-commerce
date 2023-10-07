@@ -437,6 +437,39 @@ h3{
 }
 
 
+@media screen and (max-width: 1096px) {
+
+    .company{
+        font-size: 0.7rem;
+        margin-bottom: 10px;
+    }
+
+    .fall{
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .low-profile{
+        margin-bottom: 15px;
+        font-size: 0.9rem;
+    }
+
+    ul{
+        width: 40vw;
+    }
+
+    .add{
+        font-size: 1rem;
+    }
+
+    .word-section{
+        margin-left: 70px;
+    }
+
+
+}
+
+
 
 @media only screen and (max-width: 900px) {
     nav{
@@ -640,7 +673,7 @@ h3{
     
     .company{
         margin-bottom: 15px;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     
     .container{
@@ -658,13 +691,13 @@ h3{
     
     .fall{
         margin-bottom: 20px;
-        font-size: 1.3rem;
+        font-size: 1.9rem;
     }
     
     .low-profile{
-        font-size: 0.7rem;
+        font-size: 1rem;
         margin-bottom: 20px;
-        line-height: 20px;
+        line-height: 25px;
     }
     
     .price-discount{
@@ -738,6 +771,22 @@ h3{
 
 }
 
+
+@media screen and (max-width: 744px) {
+    
+    .fall{
+        font-size: 1.5rem;
+    }
+
+    .low-profile{
+        font-size: 0.8rem;
+    }
+
+    .add{
+        font-size: 0.8rem;
+    }
+    
+}
 
 
 @media screen and (max-width: 650px) {
@@ -947,7 +996,7 @@ h3{
         background-color: white;
         border-radius: 50%;
         position: absolute;
-        left: 2vw; top: 270px;
+        left: 2vw; top: 369px;
     }
 
     .mprev img{
@@ -963,7 +1012,7 @@ h3{
         background-color: white;
         border-radius: 50%;
         position: absolute;
-        right: 2vw; top: 270px;
+        right: 2vw; top: 369px;
     }
     
     img#display{
@@ -1141,9 +1190,46 @@ h3{
         
 }
 
+
+@media screen and (max-width: 590px) {
+    .mprev, .mnext{
+        top: 329px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .mprev, .mnext{
+        top: 319px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .mprev, .mnext{
+        top: 299px;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .mprev, .mnext{
+        top: 269px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .mprev, .mnext{
+        top: 250px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .mprev, .mnext{
         top: 230px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .mprev, .mnext{
+        top: 200px;
     }
 }
 
