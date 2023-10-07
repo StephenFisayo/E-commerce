@@ -19,7 +19,6 @@ body{
     text-align: center;
     /* display: flex;
     flex-direction: column; */
-    overflow: hidden;
     position: relative;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 14px;
